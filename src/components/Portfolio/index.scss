@@ -1,0 +1,54 @@
+.portfolio-page {
+    padding-left: 100px;
+    padding-right: 50px;
+    width: calc(100% - 150px);
+    position: initial;
+    height: 100%;
+    overflow: auto;
+
+    h1.page-title {
+        margin-left: 10rem;
+        margin-top: 10rem;
+    }
+
+    h2 {
+        color: #ffd700;
+    }
+
+    ul li {
+        color: #ffd700;
+    }
+
+    .scroll {
+        margin-left: 10rem;
+        padding-right: 20px;
+        width: 80rem;
+        height: 400px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    /* width */
+    .scroll::-webkit-scrollbar {
+        width: 2px;
+    }
+  
+    /* Track */
+    .scroll::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+    }
+   
+    /* Handle */
+    .scroll::-webkit-scrollbar-thumb {
+        background: #ffd700; 
+        border-radius: 10px;
+    }
+  
+    /* Handle on hover */
+    .scroll::-webkit-scrollbar-thumb:hover {
+        background: #84741e; 
+        cursor: pointer;
+    }
+
+}
